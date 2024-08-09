@@ -4,6 +4,13 @@
 
 Este repositório contém o projeto desenvolvido para o Teste Técnico de Analista de Testes (QA) utilizando Cypress. O objetivo do teste é validar a tela de cálculo de frete do site [SuperFrete](https://web.superfrete.com/), cobrindo tanto o fluxo principal quanto cenários de erro.
 
+Neste repositorio possui:
+
+- [Introdução dos REQUISITOS](##-Requisitos)
+- [Como Executar os testes](##-Como-Executar-os-Testes)
+- [Estrutura dos arquivos](##-Estrutura-do-Projeto)
+- [Resultados dos testes](###-Resultado-dos-Testes)
+
 ## Proposta
 
 ### Configurações necessárias para a realização dos testes:
