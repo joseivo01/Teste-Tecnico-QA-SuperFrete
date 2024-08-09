@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:run": "npx cypress run --headless",
+    "cypress:run:mobile": "npx cypress run --headless --config viewportWidth=375,viewportHeight=667",
+    "cypress:run:tablet": "npx cypress run --headless --config viewportWidth=768,viewportHeight=1024",
+    "cypress:run:desktop": "npx cypress run --headless --config viewportWidth=1366,viewportHeight=768",
+    "cypress:open": "npx cypress open",
+    "cypress:open:mobile": "npx cypress open --config viewportWidth=375,viewportHeight=667",
+    "cypress:open:tablet": "npx cypress open --config viewportWidth=768,viewportHeight=1024",
+    "cypress:open:desktop": "npx cypress open --config viewportWidth=1366,viewportHeight=768",
+    "cypress:run:all": "npm run cypress:run && npm run cypress:run:mobile && npm run cypress:run:tablet && npm run cypress:run:desktop"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  }
+}
