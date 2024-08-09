@@ -65,6 +65,10 @@ Este repositório contém o projeto desenvolvido para o Teste Técnico de Analis
 
 ## Como Executar os Testes
 
+obs:. É necesário possuir:
+- NodeJS instalado [Link Node.js - Baixar LTS](https://nodejs.org/pt/blog/release/v20.9.0)
+- GIT instalado [Link GIT](https://git-scm.com/downloads)
+- NPM instalado [NPM](https://www.npmjs.com/package/download)
 1. Clone o repositório:
    ```bash
    git clone https://github.com/joseivo01/Teste-Tecnico-QA-SuperFrete.git
